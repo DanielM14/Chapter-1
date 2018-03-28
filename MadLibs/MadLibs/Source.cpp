@@ -29,14 +29,18 @@ int main()
 	std::cout << "Enter a noun >>>" << std::endl;
 	std::cin >> noun;
 	std::cout << "Enter a pluarl noun >>>" << std::endl;
+	std::cin >> pluralNoun;
 	std::cout << "Enter a number >>>" << std::endl;
 	std::cin >> aFirstNumberChosenByUser;
 	std::cout << "Enter another number >>>" << std::endl;
 	std::cin >> bSecondNumberChosenByUser;
 
 	cTheResultOfaMinusB = aFirstNumberChosenByUser - bSecondNumberChosenByUser;
-	std::cout << "The " << color << "Dragon is the " << wordEst << "Dragon of all. It has" << cTheResultOfaMinusB << std::endl;
-	std::cout << bodyPartPlural << "and a" << animal << "shaped like a" << noun << ". It loves to eat" << pluralNoun << ",although it will feast on nearly anything" << std::endl; 
+	std::cout << "The " << color << " Dragon is the " << wordEst << " Dragon of all. It has " << cTheResultOfaMinusB << std::endl;
+	std::cout << bodyPartPlural << " and a " << animal << " shaped like a " << noun << ". It loves to eat " << pluralNoun << ", although it will feast on nearly anything " << std::endl; 
 
+	system("pause");
+	return 0;
+	
 
 }
