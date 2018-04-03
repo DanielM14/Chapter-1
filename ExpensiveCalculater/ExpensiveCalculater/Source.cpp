@@ -3,18 +3,27 @@
 //Author: Daniel McGlasson
 
 
-#include<iostream>
+#include <iostream>
 
 int main()
 {
-	std::cout << "7 + 3 = " << 7 + 3 << std::endl;
-	std::cout << "7 - 3 = " << 7 - 3 << std::endl;
-	std::cout << "7 x 3 = " << 7 / 3 << std::endl;
-	std::cout << "7.0 / 3.0 = " << 7.0 / 3.0 << std::endl;
-	std::cout << "7 % 3 = " << 7 % 3 << std::endl;
+	int userInput1;
+	int userInput2;
 	
-	std::cout << "7 + 3 x 5 = " << 7 + 3 * 5 << std::endl;
-	std::cout << "(7+3) x 5 =" << (7 + 3) * 5 << std::endl;
+	
+	std::cout << "Enter your first number >>>";
+	std::cin >> userInput1;
+	std::cout << "Enter your second number>>>";
+	std::cin >> userInput2;
+
+
+
+	std::cout << userInput1 << " + " << userInput2 << " = " << userInput1 + userInput2 << std::endl;
+	std::cout << userInput1 << " - " << userInput2 << " = " << userInput1 - userInput2 << std::endl;
+	std::cout << userInput1 << " x " << userInput2 << " = " << userInput1 * userInput2 << std::endl;
+	std::cout << userInput1 << " / " << userInput2 << " = " << userInput1 / userInput2 << std::endl;
+	std::cout << userInput1 << " % " << userInput2 << " = " << userInput1 % userInput2 << std::endl;
+	
 	system("Pause");
 	return 0;
 
